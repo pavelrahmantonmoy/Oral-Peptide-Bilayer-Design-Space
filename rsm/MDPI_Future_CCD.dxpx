@@ -1,0 +1,276 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="MDPI (Future).dxpx" creator="S360" version="25.0.7">
+<designInfo studyType="ResponseSurface" studySubType="Randomized" designType="CCD" noOfRuns="13" noOfFactors="2" noOfResponses="2" noOfAnalyses="2">
+<designNotes></designNotes>
+</designInfo>
+<designNames/>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="HPMC K100M Conc. (% w/w)" unit="%" type="Numeric" uuid="e6ad1372-9e55-409f-b68e-e1b3a364aff2">
+<numeric format="General" low="15" high="35" stdDev="0"/>
+</factor>
+<factor id="B" name="SNAC Amount " unit="mg" type="Numeric" uuid="69844e10-a36a-45ef-b50f-8271aedce345">
+<numeric format="General" low="50" high="150" stdDev="0"/>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="Cumulative Release at 12h" unit="%" type="Normal" format="General" responseUuId="37bccf1b-f4d4-45b9-ae5c-e25067c3c0a5"/>
+<response id="2" name="Enzymatic Protection Window / Dissolution Lag/Shift (h)" unit="h" type="Normal" format="General" responseUuId="62b0ad82-673e-4625-9978-3a4823c44eb5"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="stdorder">
+<width>35</width>
+</column>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>95</width>
+</column>
+<column id="B" type="factor">
+<width>95</width>
+</column>
+<column id="1" type="response">
+<width>95</width>
+</column>
+<column id="2" type="response">
+<width>95</width>
+</column>
+</visibleColumns>
+</designLayout>
+<graphSettings>
+<graphArea name="GraphicalOptimization">
+<graphMethod>Contour</graphMethod>
+<colorMapKey/>
+<contours type="overlay" index="-1" transformed="true" mode="auto">
+<format>General</format>
+</contours>
+<contours type="overlay" index="-1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>68.1</contourLevel>
+<contourLevel>1.3</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>-0.204772</codedValue>
+<codedValue>0.999997</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="4" title="Stat-Ease 360® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+<graphArea name="NumericalOptimization">
+<graphMethod>Contour</graphMethod>
+<colorMapKey/>
+<contours type="desirability" index="-1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>0</contourLevel>
+<contourLevel>0.2</contourLevel>
+<contourLevel>0.4</contourLevel>
+<contourLevel>0.6</contourLevel>
+<contourLevel>0.8</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>-0.204772</codedValue>
+<codedValue>0.999997</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="4" title="Stat-Ease 360® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+</graphSettings>
+<perspectives>
+<report name="main_frame" width="1296" height="688">layout2|name=main_toolbar;caption=Toolbar;state=2106108;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=476;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=start_screen;caption=;state=258;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=0;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=navigation_tree;caption=Navigation Pane;state=5628;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=600;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=node_view;caption=;state=4352;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=16;besth=16;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Design Tool;caption=;state=2110204;dir=1;layer=10;row=0;pos=478;prop=100000;bestw=655;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Design Properties;caption=Design Properties;state=2098684;dir=4;layer=1;row=0;pos=1;prop=23802;bestw=200;besth=92;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=340|name=History Tool;caption=History Tool;state=2098686;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=300;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=340|dock_size(1,10,0)=39|dock_size(5,0,0)=10|dock_size(4,1,0)=200|</report>
+<report name="report_anova_Cumulative Release at 12h" width="1280" height="720">c9c9a9106ad63b23004bdaf500000002=+0|c9c98a506ad63b23004bdb7400000003=+1,2|c9c9aba06ad63b23004bdb7800000004=3,4,*5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c9c9a9106ad63b23004bdaf500000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=382;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c9c98a506ad63b23004bdb7400000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=17557;bestw=674;besth=43;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c9c9aba06ad63b23004bdb7800000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=182443;bestw=674;besth=477;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,3,0)=676|</report>
+<report name="report_anova_Cumulative Release at 12h (1)" width="1280" height="720">c59cf3e06ad629080005208600000002=*0|c5967fe06ad62908000520d800000003=+1,2|c5a2e7b06ad62908000520dd00000004=+3,4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c59cf3e06ad629080005208600000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5967fe06ad62908000520d800000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=114122;bestw=532;besth=296;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a2e7b06ad62908000520dd00000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=85878;bestw=532;besth=224;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,3,0)=534|</report>
+<report name="report_anova_Enzymatic Protection Window / Dissolution Lag/Shift ..." width="1280" height="720">c59c38206ad629460006134f00000002=+0|c5a071506ad62946000613a800000003=+1,2|c5a073e06ad62946000613ab00000004=3,4,*5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c59c38206ad629460006134f00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=207;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a071506ad62946000613a800000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=28625;bestw=849;besth=72;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a073e06ad62946000613ab00000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=171375;bestw=849;besth=448;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,3,0)=851|</report>
+<report name="report_anova_R2" width="1280" height="720">c9cd1ca06ad63b35004c1fb900000002=*0|c9cd3b606ad63b35004c201400000003=+1,2|c9cd08206ad63b35004c201700000004=+3,4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c9cd1ca06ad63b35004c1fb900000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c9cd3b606ad63b35004c201400000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=119083;bestw=532;besth=309;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c9cd08206ad63b35004c201700000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=80917;bestw=532;besth=211;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,3,0)=534|</report>
+<report name="report_fit_summary_2" width="1280" height="720">c5a067106ad62c4b0011dbac00000002=*0|c5a076706ad62c4b0011dbdd00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a067106ad62c4b0011dbac00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a076706ad62c4b0011dbdd00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_3" width="1280" height="720">c5a067106ad62d070014ba2c00000002=*0|c5a079006ad62d070014ba6200000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a067106ad62d070014ba2c00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a079006ad62d070014ba6200000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_Cumulative Release at 12h" width="1280" height="720">c5a076706ad6351a0034456200000002=*0|c5a05f606ad6351a0034459900000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a076706ad6351a0034456200000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a05f606ad6351a0034459900000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_Cumulative Release at 12h (1)" width="1280" height="720">c5857bb06ad62901000505e100000002=*0|c59e84a06ad629010005061d00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5857bb06ad62901000505e100000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c59e84a06ad629010005061d00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_Cumulative Release at 12h (2)" width="1280" height="720">c5a071506ad62c2e00116df600000002=*0|c5a05cd06ad62c2f00116e2800000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a071506ad62c2e00116df600000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a05cd06ad62c2f00116e2800000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_Cumulative Release at 12h (3)" width="1280" height="720">c5a076706ad62cfb00148bb100000002=*0|c5a067106ad62cfb00148be700000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a076706ad62cfb00148bb100000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a067106ad62cfb00148be700000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_Enzymatic Protection Window / Dissolution Lag/Shift (h)" width="1280" height="720">c5a061f06ad6356f0035909b00000002=*0|c5a06c306ad6356f003590cd00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a061f06ad6356f0035909b00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a06c306ad6356f003590cd00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_Enzymatic Protection Window / Dissolution Lag/Shift ..." width="1280" height="720">c59092906ad6293b0005e8a300000002=*0|c5a2f3806ad6293c0005e8da00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c59092906ad6293b0005e8a300000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a2f3806ad6293c0005e8da00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_R1-3" width="1280" height="720">c5a064806ad635d300371a0700000002=*0|c5a069a06ad635d400371af800000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a064806ad635d300371a0700000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a069a06ad635d400371af800000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_R1-4" width="1280" height="720">c5a079006ad62d940016e3b400000002=*0|c5a064806ad62d940016e3eb00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a079006ad62d940016e3b400000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a064806ad62d940016e3eb00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_R1-5" width="1280" height="720">c5a061f06ad62df20018505300000002=*0|c5a067106ad62df20018508d00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a061f06ad62df20018505300000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a067106ad62df20018508d00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_R2" width="1280" height="720">c5a061f06ad6376e003d5eb600000002=*0|c5a06ec06ad6376e003d5f0a00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a061f06ad6376e003d5eb600000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a06ec06ad6376e003d5f0a00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_R2-4" width="1280" height="720">c5a076706ad62d9f00170e4c00000002=*0|c5a069a06ad62d9f00170e8100000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a076706ad62d9f00170e4c00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a069a06ad62d9f00170e8100000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_fit_summary_R2-5" width="1280" height="720">c5a073e06ad62dfd00187c2900000002=*0|c5a06c306ad62dfd00187c5d00000003=+1,3,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a073e06ad62dfd00187c2900000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=524;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a06c306ad62dfd00187c5d00000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=532;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(2,2,0)=534|</report>
+<report name="report_solutions_" width="1280" height="720">c5a069a06ad63e0c0057369c00000002=*0|c5a06ec06ad63e0c005736e400000003=+1,2,3@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a069a06ad63e0c0057369c00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1062;besth=256;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=c5a06ec06ad63e0c005736e400000003;caption=;state=2098172;dir=3;layer=2;row=0;pos=0;prop=100000;bestw=1062;besth=264;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=10|dock_size(3,2,0)=266|</report>
+</perspectives>
+<tables>
+<table name="Actual Equation" isTransposed="false"></table>
+<table name="Analysis of Variance" isTransposed="false"></table>
+<table name="Anova Coded Equation" isTransposed="false"></table>
+<table name="Anova Equations" isTransposed="false"></table>
+<table name="Anova Fit Statistics" isTransposed="false"></table>
+<table name="Coefficients" isTransposed="false"></table>
+<table name="Constraints" isTransposed="false"></table>
+<table name="Fit Summary" isTransposed="false"></table>
+<table name="Lack of Fit Tests" isTransposed="false"></table>
+<table name="Model Comparison Statistics" isTransposed="false"></table>
+<table name="Model Summary Statistics" isTransposed="false"></table>
+<table name="Sequential Model Sum of Squares Type I" isTransposed="false"></table>
+<table name="Solution 1" isTransposed="false"></table>
+<table name="Solutions" isTransposed="false"></table>
+<table name="Starting Points" isTransposed="false"></table>
+</tables>
+</guiState>
+<designModel terms="6">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="AB"/>
+<designTerm id="4" coef="1" term="A^2"/>
+<designTerm id="5" coef="1" term="B^2"/>
+</designModel>
+<run stdNo="5" dsnId="6" runNo="1" blockNo="0" blockName="Block 1" pointId="6" pointName="Interior" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">17.93</facActual>
+<facActual id="B">64.64</facActual>
+<resVal id="1">62.8</resVal>
+<resVal id="2">1.8</resVal>
+</run>
+<run stdNo="8" dsnId="9" runNo="2" blockNo="0" blockName="Block 1" pointId="6" pointName="Interior" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">32.07</facActual>
+<facActual id="B">64.64</facActual>
+<resVal id="1">34.2</resVal>
+<resVal id="2">2.3</resVal>
+</run>
+<run stdNo="13" dsnId="6" runNo="3" blockNo="0" blockName="Block 1" pointId="6" pointName="Interior" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">17.93</facActual>
+<facActual id="B">135.36</facActual>
+<resVal id="1">59.6</resVal>
+<resVal id="2">4.2</resVal>
+</run>
+<run stdNo="9" dsnId="10" runNo="4" blockNo="0" blockName="Block 1" pointId="6" pointName="Interior" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">32.07</facActual>
+<facActual id="B">135.36</facActual>
+<resVal id="1">32.9</resVal>
+<resVal id="2">4.7</resVal>
+</run>
+<run stdNo="10" dsnId="10" runNo="5" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">15</facActual>
+<facActual id="B">100</facActual>
+<resVal id="1">68.1</resVal>
+<resVal id="2">2.9</resVal>
+</run>
+<run stdNo="6" dsnId="7" runNo="6" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">35</facActual>
+<facActual id="B">100</facActual>
+<resVal id="1">28.6</resVal>
+<resVal id="2">3.4</resVal>
+</run>
+<run stdNo="7" dsnId="2" runNo="7" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">25</facActual>
+<facActual id="B">50</facActual>
+<resVal id="1">47.5</resVal>
+<resVal id="2">1.3</resVal>
+</run>
+<run stdNo="4" dsnId="5" runNo="8" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">25</facActual>
+<facActual id="B">150</facActual>
+<resVal id="1">44.3</resVal>
+<resVal id="2">5.1</resVal>
+</run>
+<run stdNo="1" dsnId="10" runNo="9" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">25</facActual>
+<facActual id="B">100</facActual>
+<resVal id="1">47</resVal>
+<resVal id="2">4</resVal>
+</run>
+<run stdNo="11" dsnId="10" runNo="10" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">25</facActual>
+<facActual id="B">100</facActual>
+<resVal id="1">46.4</resVal>
+<resVal id="2">3.7</resVal>
+</run>
+<run stdNo="2" dsnId="10" runNo="11" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">25</facActual>
+<facActual id="B">100</facActual>
+<resVal id="1">46</resVal>
+<resVal id="2">4.2</resVal>
+</run>
+<run stdNo="3" dsnId="10" runNo="12" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">25</facActual>
+<facActual id="B">100</facActual>
+<resVal id="1">45.9</resVal>
+<resVal id="2">3.5</resVal>
+</run>
+<run stdNo="12" dsnId="10" runNo="13" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">25</facActual>
+<facActual id="B">100</facActual>
+<resVal id="1">46.3</resVal>
+<resVal id="2">4.2</resVal>
+</run>
+<responseModel rmId="1" analysisUuId="ef29c2d7-867d-4fc0-bb7b-26da471c2e4f" name="Cumulative Release at 12h">
+<response id="1" responseUuId="37bccf1b-f4d4-45b9-ae5c-e25067c3c0a5" modelBase="Polynomial" useFiMReplicate="false" stdDevSource="ANOVA" stdDev="0.360888085004079"/>
+<blockEffectType random="false"/>
+<transform id="0" name="No Transform" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="6">
+<equationTerm id="0" coef="46.3200019188103" term="Intercept"/>
+<equationTerm id="1" coef="-19.6522424886158" term="A"/>
+<equationTerm id="2" coef="-1.59538966382672" term="B"/>
+<equationTerm id="3" coef="0.95001824035021" term="AB"/>
+<equationTerm id="4" coef="2.15514362068383" term="A^2"/>
+<equationTerm id="5" coef="-0.294785565601652" term="B^2"/>
+<equationTerm id="6" term="Curvature"/>
+</compModel>
+</responseModel>
+<responseModel rmId="2" analysisUuId="fffd3f08-f7d8-4f87-8d93-8c5cf2925428" name="Enzymatic Protection Window / Dissolution Lag/Shift ...">
+<response id="2" responseUuId="62b0ad82-673e-4625-9978-3a4823c44eb5" modelBase="Polynomial" useFiMReplicate="false" stdDevSource="ANOVA" stdDev="0.253900711779975"/>
+<blockEffectType random="false"/>
+<transform id="0" name="No Transform" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="6">
+<equationTerm id="0" coef="3.9200005746474" term="Intercept"/>
+<equationTerm id="1" coef="0.301795571131241" term="A"/>
+<equationTerm id="2" coef="1.79840289856185" term="B"/>
+<equationTerm id="3" coef="1.91599196902411E-16" term="AB"/>
+<equationTerm id="4" coef="-0.73252185244346" term="A^2"/>
+<equationTerm id="5" coef="-0.682500645075258" term="B^2"/>
+<equationTerm id="6" term="Curvature"/>
+</compModel>
+</responseModel>
+<optimization models="6">
+<criteria modType="Factor" id="1" goal="InRange" type="Numeric" target="0" limitLow="-1" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="2" goal="InRange" type="Numeric" target="0" limitLow="-1" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original"/>
+<criteria modType="Response" id="1" goal="Target" type="Numeric" target="48.35" limitLow="28.6" limitHigh="68.1" weightLow="1" weightHigh="1" overlayLow="28.6" overlayHigh="68.1" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="37bccf1b-f4d4-45b9-ae5c-e25067c3c0a5" rmId="1" analysisUuId="ef29c2d7-867d-4fc0-bb7b-26da471c2e4f"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="37bccf1b-f4d4-45b9-ae5c-e25067c3c0a5" rmId="1" analysisUuId="ef29c2d7-867d-4fc0-bb7b-26da471c2e4f"/>
+<criteria modType="Response" id="2" goal="Maximum" type="Numeric" target="5.1" limitLow="1.3" limitHigh="5.1" weightLow="1" weightHigh="1" overlayLow="1.3" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="62b0ad82-673e-4625-9978-3a4823c44eb5" rmId="2" analysisUuId="fffd3f08-f7d8-4f87-8d93-8c5cf2925428"/>
+<criteria modType="POE" id="2" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="62b0ad82-673e-4625-9978-3a4823c44eb5" rmId="2" analysisUuId="fffd3f08-f7d8-4f87-8d93-8c5cf2925428"/>
+<SeedVal>961811505</SeedVal>
+</optimization>
+<buildInfo CCDType="Full" alphaType="Rotatable" noOfFactorialReps="1" noOfAxialReplicates="1" noOfCenterPoints="5" buildTime="3"/>
+</DEXXMLDoc>
