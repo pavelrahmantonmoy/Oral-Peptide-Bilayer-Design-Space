@@ -1,0 +1,7 @@
+Model,RMSE_pp,R2,AIC,AICc,k,params
+Zero-order  Q = k0 t,7.188,0.8486,57.2,57.6,1,[3.6408]
+First-order Q = 100(1-e^-k1 t),4.119,0.9503,41.6,42.0,1,[0.0545]
+Higuchi     Q = kH t^0.5,2.324,0.9842,25.6,25.9,1,[13.5275]
+Korsmeyer-Peppas Q = k t^n,0.727,0.9985,-4.9,-3.8,2,"[10.7448, 0.5933]"
+Peppas-Sahlin Q = kd t^0.45+kr t^0.89,0.549,0.9991,-12.8,-11.7,2,"[9.4174, 1.9439]"
+PINN (physics-informed NN),0.408,0.9995,2280.9,,1153,1153 weights
